@@ -1,0 +1,15 @@
+class Cat:
+    def __init__(self, name):
+        self.name = name
+        self.fur_color = "white"
+    
+    def meow(self):
+        print(f"{self.name} says: meow!")
+        
+    def describe(self):
+        print(f"{self.name} has {self.fur_color} fur.")
+my_cat = Cat("Snowball")
+my_cat.meow()
+my_cat.describe()
+Snowball says: meow!
+Snowball has white fur.
